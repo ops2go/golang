@@ -19,7 +19,7 @@ func main() {
 	
 	// Strings are a series of characters between " or `
 	
-	var myName string = "Derek Banas"
+	var myName string = "Coleman Word"
 	
 	// Get string length
 	
@@ -27,7 +27,7 @@ func main() {
 	
 	// You can combine strings with +
 	
-	fmt.Println(myName + " is a robot")
+	fmt.Println(myName + " is a cyborg")
 	
 	// Strings between " can contain escape symbols like \n for newline 
 	
@@ -37,7 +37,7 @@ func main() {
 	
 	// Booleans can be either true or false
 	
-	var isOver40 bool = true
+	var isOver40 bool = false
 	
 	fmt.Println(isOver40)
 	

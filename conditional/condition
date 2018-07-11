@@ -6,12 +6,12 @@ func main() {
  
 	// If Statement
 	
-	yourAge := 18
+	yourAge := 21
 	
-	if yourAge >= 16 {
-		fmt.Println("You Can Drive")
+	if yourAge >= 21 {
+		fmt.Println("You Can Drink")
 	} else {
-		fmt.Println("You Can't Drive")
+		fmt.Println("You Can't Drink")
 	}
 	
 	// You can use else if perform different actions, but once a match
@@ -30,6 +30,7 @@ func main() {
 	switch yourAge {
 		case 16: fmt.Println("Go Drive")
 		case 18: fmt.Println("Go Vote")
+	    case 21: fmt.Println("Go Drink")
 		default: fmt.Println("Go Have Fun")
 	}
  

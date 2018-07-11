@@ -20,7 +20,7 @@ func main() {
 	// Println is a function in the fmt package that outputs a string, which
 	// is surrounded by double quotes and a newline to the screen
 	
-	fmt.Println("Hello World")
+	fmt.Println("Hello World, my name is Coleman Word, and this is my Golang tutorial!")
 	
 	// You can get a description of a function by typing godoc fmt Println
 	// for example in the terminal
@@ -43,12 +43,12 @@ func main() {
 	// int64 : signed 64-bit integers (-9223372036854775808 to 
 	// 9223372036854775807)
 	
-	var age int64 = 40
+	var age int64 = 24
 	
 	// A float is a number with decimals
 	// Versions : float32, float64
 	
-	var favNum float64 = 1.61803398875
+	var favNum int = 23
 	
 	// You don't need to define the data type, nor do you need a semicolon
 	// but you can use them
